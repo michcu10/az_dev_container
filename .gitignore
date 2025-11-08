@@ -1,0 +1,61 @@
+# OS files
+Thumbs.db
+.DS_Store
+
+# VS Code
+.vscode/
+.history/
+
+# Dev Containers
+.devcontainer/.localdata
+.devcontainer/.cache
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+.venv/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+dist/
+build/
+eggs/
+*.egg-info/
+*.egg
+
+# Pyenv
+.python-version
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+override.tf
+override.tf.json
+terraform.tfstate.d/
+
+# Azure
+# Exclude local Azure CLI credentials if the host .azure folder is accidentally added
+.azure/
+
+# Secrets and local config
+.env
+.env.*
+secrets.json
+local.settings.json
+
+# Node
+node_modules/
+
+# Logs
+*.log
+
+# Misc
+*.swp
+.idea/
